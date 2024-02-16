@@ -1,16 +1,18 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: "/javascript"
     schedule:
-      interval: weekly
-      time: "04:00"
-    open-pull-requests-limit: 10
+      interval: "daily"
     reviewers:
       - direisc
     assignees:
       - direisc
-    labels:
-      - status/CR-NEEDED
-      - kind/DEPENDENCIES
-    versioning-strategy: increase
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - direisc
+    assignees:
+      - direisc
