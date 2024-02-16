@@ -4,8 +4,8 @@
   "version": "1.0.1",
   "description": "Generate a flat positional text file of your dataset",
   "type": "module",
-  "main": "./dist/flat-file-creator.js",
-  "types": "./dist/flat-file-creator.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "README.md",
     "dist"
@@ -29,10 +29,10 @@
   ],
   "author": "direisc",
   "license": "MIT",
-  "homepage": "https://github.com/direisc/flat-file-creator#readme",
-  "repository": "github:direisc/flat-file-creator",
+  "homepage": "https://github.com/direisc/file-positional#readme",
+  "repository": "github:direisc/file-positional",
   "bugs": {
-    "url": "https://github.com/direisc/flat-file-creator/issues"
+    "url": "https://github.com/direisc/file-positional/issues"
   },
   "dependencies": {
     "lodash": "^4.17.21",
