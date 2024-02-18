@@ -34,6 +34,11 @@ const stringFormatter = (map: StringFieldSpec, data: StringFieldValue) => {
       str = str.trim()
     }
 
+    // Make sure it fits
+    if (str.length > map.size) {
+      throw new Error(`Value ${str} exceed size ${map.size}`)
+    }
+
     // If this is an enum field, convert the value to serialized form
     if (map.enum !== undefined) {
       // If we find the string in the values of the enum, convert it to a key

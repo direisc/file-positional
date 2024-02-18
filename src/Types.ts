@@ -1,7 +1,8 @@
 import lodash from 'lodash'
-import { Moment } from 'moment'
+import moment from 'moment'
 import { isNumeric } from './utils.js'
 
+type Moment = ReturnType<typeof moment>
 // Export Moment type for downstream convenience
 export { Moment }
 
