@@ -1,7 +1,7 @@
 {
   "name": "file-positional",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Generate a flat positional text file of your dataset",
   "type": "module",
   "main": "./dist/index.js",
