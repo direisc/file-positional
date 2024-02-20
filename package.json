@@ -28,7 +28,7 @@
     "prettier:fix": "npx prettier -w src",
     "_build": "rimraf dist && npx tsc",
     "build": "rimraf dist && tsup src/index.ts --format cjs,esm --sourcemap --dts",
-    "prepublishOnly": "rimraf dist && npx tsc"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "positional",
