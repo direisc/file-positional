@@ -1,7 +1,7 @@
 {
   "name": "file-positional",
   "private": false,
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Generate a flat positional text file of your dataset",
   "type": "module",
   "main": "dist/index.cjs",
